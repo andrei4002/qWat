@@ -4,4 +4,4 @@
 	SQL file :: make sure hstore extension exists
 */
 
-create extension hstore;
+create extension if not exists hstore ;
